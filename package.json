@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "yarn test -- --watchAll"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jest-cli": "^27.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
